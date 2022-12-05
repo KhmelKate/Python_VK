@@ -1,5 +1,5 @@
 ## 1. LRU-кеш без OrderedDict .
-
+---
 class LRUCache:
 
     def __init__(self, limit=42):
@@ -31,6 +31,6 @@ print(cache.get("k1"))  # "val1"
 Если удобнее, get/set можно сделать по аналогии с dict:
 cache["k1"] = "val1"
 print(cache["k3"])
-
+---
 
 Реализация любым способом.
