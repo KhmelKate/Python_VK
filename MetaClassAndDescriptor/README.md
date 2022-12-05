@@ -1,6 +1,6 @@
 ## 1. Написать метакласс, который в начале названий всех атрибутов и методов (кроме магических) добавляет префикс "custom_" 
 
-class CustomMeta():
+```class CustomMeta():
     pass
 
 class CustomClass(metaclass=CustomMeta):
@@ -25,11 +25,11 @@ str(inst) == "Custom_by_metaclass"
 inst.x  # ошибка
 inst.val  # ошибка
 inst.line() # ошибка
-CustomClass.x  # ошибка
+CustomClass.x  # ошибка```
 
 ## 2. Дескрипторы с проверкаим типов и значений данных 
 
-class Integer:
+```class Integer:
     pass
 
 class String:
@@ -44,4 +44,4 @@ class Data:
     price = PositiveInteger()
 
     def __init__(...):
-        ....
+        ....```
