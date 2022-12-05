@@ -25,3 +25,21 @@ inst.x  # ошибка
 inst.val  # ошибка
 inst.line() # ошибка
 CustomClass.x  # ошибка
+
+## 2. Дескрипторы с проверкаим типов и значений данных 
+class Integer:
+    pass
+
+class String:
+    pass
+
+class PositiveInteger:
+    pass
+
+class Data:
+    num = Integer()
+    name = String()
+    price = PositiveInteger()
+
+    def __init__(...):
+        ....
