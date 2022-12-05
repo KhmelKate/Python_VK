@@ -27,6 +27,7 @@ inst.line() # ошибка
 CustomClass.x  # ошибка
 
 ## 2. Дескрипторы с проверкаим типов и значений данных 
+
 class Integer:
     pass
 
